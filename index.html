@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -31,10 +31,94 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+    <!-- Timeblocks go here -->
+      
+      <!-- 9 AM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        9 AM
+      </div>
+      <textarea id="task1" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="9"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 10 AM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        10 AM
+      </div>
+      <textarea id="task2" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="10"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 11 AM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        11 AM
+      </div>
+      <textarea id="task3" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="11"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 12 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        12 PM
+      </div>
+      <textarea id="task4" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="12"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 1 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        1 PM
+      </div>
+      <textarea id="task5" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="13"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 2 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        2 PM
+      </div>
+      <textarea id="task6" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="14"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 3 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        3 PM
+      </div>
+      <textarea id="task7" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="15"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 4 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        4 PM
+      </div>
+      <textarea id="task8" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="16"><i class="fas fa-save"></i></button>
+      </div>
+
+      <!-- 5 PM -->
+      <div class="row time-block">
+      <div class="col-2 hour d-flex justify-content-center align-items-center">
+        5 PM
+      </div>
+      <textarea id="task9" class="col-8 description"></textarea>
+      <button class="col-2 saveBtn" data-hour="17"><i class="fas fa-save"></i></button>
+      </div>
+      
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
